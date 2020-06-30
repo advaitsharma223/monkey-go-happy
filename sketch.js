@@ -111,11 +111,11 @@ function draw(){
   }else if(gameState === END) {
 
     //for bananas
-    bananaGrp.setVelocityXEach = 0;
+    bananaGrp.setVelocityXEach(0);
     bananaGrp.setLifetimeEach(-1);
 
     //for obstacles
-    ObstacleGroup.setVelocityXEach = 0;
+    ObstacleGroup.setVelocityXEach(0);
     ObstacleGroup.setLifetimeEach(-1);
 
     //for ground
